@@ -31,7 +31,7 @@ PO_VENDOR_CONTACTS:
 *******************
 -->This table stores supplier contact details which are related to purchase order, each record includes contact name and supplier site.
 MODULES
---------
+*********
 AP(ACCOUNT PAYABLE):
 ********************
 AP_INVOICES_ALL;
@@ -42,26 +42,26 @@ AP_INVOICE_PAYMENTS_ALL;
 AP_CHECKS_ALL;
 AP_BATCHES_ALL;
 AP_ITEMS;
------------------------
+
 INVOICE TABLES:
------------------------
-SELECT * FROM AP_BATCHES_ALL;
-SELECT * FROM AP_INVOICES_ALL;
-SELECT * FROM AP_INVOICES_LINES_ALL;
-SELECT * FROM AP_INVOICES_DISTRIBUTIONS_ALL;
-SELECT * FROM AP_PAYMENT_SCHEDULES_ALL;
---------------------
+***************
+AP_BATCHES_ALL;
+AP_INVOICES_ALL;
+AP_INVOICES_LINES_ALL;
+AP_INVOICES_DISTRIBUTIONS_ALL;
+AP_PAYMENT_SCHEDULES_ALL;
+
 PAYMENT TABLE:
---------------------
-SELECT * FROM AP_CHECKS_ALL;
-SELECT * FROM AP_INVOICE_PAYMENTS_ALL;
-SELECT * FROM AP_PAYMEN_DISTRIBUTIONS_ALL;
-SELECT * FROM AP_PAYMENT_HISTORY_ALL;
---------------------
+**************
+AP_CHECKS_ALL;
+AP_INVOICE_PAYMENTS_ALL;
+AP_PAYMEN_DISTRIBUTIONS_ALL;
+AP_PAYMENT_HISTORY_ALL;
+
 TERMS TABLE:
---------------------
-SELECT * FROM AP_ITEMS;
-SELECT * FROM AP_ITEMS_TL;
+*************
+AP_ITEMS;
+AP_ITEMS_TL;
 
 PO REQUISITION TABLES:
 **********************
